@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+dist/
+node_modules/
+.vite/
+
+# logs
+*.log
+
+# runtime data (recreated on start)
+backend/sovai.db
+storage/
+
+# downloaded Qdrant native binary (use docker-compose instead)
+qdrant-server/qdrant.exe
+qdrant-server/qdrant.zip
+qdrant-server/storage/
+.qdrant-initialized
+
+# test helpers committed elsewhere
+backend/import_time.log
+backend/chat_req.json
+backend/boot.log
